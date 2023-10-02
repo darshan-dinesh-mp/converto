@@ -1,0 +1,26 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.appmain{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../public/Images/pxfuel.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover cover;
+    position: absolute;
+}
+
+.appmain::before{
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0, 0, 0, 0.8);
+    filter: brightness(0);
+}
