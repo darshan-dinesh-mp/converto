@@ -17,7 +17,6 @@
     cursor: pointer;
     outline: none;
     padding: 1rem;
-    border-left: 1px solid red;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -34,14 +33,14 @@
     .main div input{
         font-size: small;
         font-weight: 800;
-        padding: 1rem 0 1rem 0;
+        padding: 1rem;
         text-align: center;
         width: 60%;
     }
     .main div select{
         font-size: small;
         font-weight: 800;
-        padding: 1rem 0 1rem 0;
+        padding: 1rem;
         text-align: center;
         text-overflow:ellipsis ;
         width: 40%;

@@ -45,5 +45,9 @@
         width: 100%;
         border-radius: 10px;
         outline: none;
+        text-overflow: ellipsis;
+        text-align: center;
+        font-size: larger;
+        padding: 1rem 0.5rem 1rem 0.5rem;
     }
 }
