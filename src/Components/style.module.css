@@ -30,4 +30,12 @@
         justify-content: center;
         width: 100%;
     }
+
+    .main div input{
+        width: 60%;
+    }
+    .main div select{
+        width: 40%;
+        text-overflow:ellipsis ;
+    }
 }
