@@ -34,12 +34,14 @@
     .main div input{
         font-size: small;
         font-weight: 800;
+        padding: 1rem 0 1rem 0;
         text-align: center;
         width: 60%;
     }
     .main div select{
         font-size: small;
         font-weight: 800;
+        padding: 1rem 0 1rem 0;
         width: 40%;
         text-overflow:ellipsis ;
     }
