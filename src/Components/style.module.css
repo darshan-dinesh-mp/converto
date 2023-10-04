@@ -32,6 +32,7 @@
     }
 
     .main div input{
+        text-align: center;
         width: 60%;
     }
     .main div select{
