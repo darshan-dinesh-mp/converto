@@ -1,12 +1,12 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faRightLong } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react'
-import l from "../style.module.css"
+import style from "../style.module.css"
 
 function Length() {
 
-    const [fromValue, setFromValue] = useState("0")
-    const [result, setResult] = useState("")
+    const [fromValue, setFromValue] = useState(0)
+    const [result, setResult] = useState()
     const [fromUnit, setFromUnit] = useState("m")
     const [toUnit, setToUnit] = useState("cm")
 
@@ -288,7 +288,7 @@ function Length() {
     }
 
     return (
-        <div className={`${l.main} flex items-center justify-center w-auto`}>
+        <div className={`${style.main} flex items-center justify-center w-auto`}>
             <div className='flex justify-center items-center'>
                 <input value={fromValue} type="number" name='from' id='from' onChange={changeFromValue} placeholder='Enter the length' />
                 <select value={fromUnit} name="fromUnit" id="fromUnit" onChange={changeFromUnit}>
