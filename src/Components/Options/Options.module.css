@@ -1,3 +1,13 @@
+.container{
+    position: relative;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .select{
     cursor: pointer;
     font-size: x-large;
@@ -8,8 +18,10 @@
 @media only screen and (max-width: 540px) {
     .container{
         position: relative;
+        top: 0%;
         display: flex;
         flex-direction: column;
+        width: 80%;
     }    
 
     .component_div{
@@ -17,6 +29,6 @@
     }
 
     .select{
-        width: auto;
+        width: 50%;
     }
 }

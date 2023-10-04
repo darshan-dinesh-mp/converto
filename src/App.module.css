@@ -24,3 +24,11 @@
     background-color: rgba(0, 0, 0, 0.8);
     filter: brightness(0);
 }
+
+@media only screen and (max-width: 540px) {
+    .appmain{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
