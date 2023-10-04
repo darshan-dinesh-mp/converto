@@ -303,7 +303,7 @@ function Length() {
                     <option value="nautical mile">nautical mile</option>
                 </select>
             </div>
-            <FontAwesomeIcon icon={faRightLong} className='text-2xl text-white' />
+            <FontAwesomeIcon icon={faRightLong} className={`${style.icon} text-2xl text-white`}/>
             <div className='flex justify-center items-center'>
                 <input value={result} type="text" name='to' id='to' placeholder='Result is shown here' />
                 <select value={toUnit} name="toUnit" id="toUnit" onChange={changeToUnit}>

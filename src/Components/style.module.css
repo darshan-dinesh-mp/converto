@@ -53,4 +53,7 @@
         border:1px solid gray ;
         width: 40%;
     }
+    .icon{
+        transform: rotate(90deg);
+    }
 }
