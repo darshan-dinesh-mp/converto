@@ -36,6 +36,8 @@
         width: 60%;
     }
     .main div select{
+        font-size: small;
+        font-weight: 800;
         width: 40%;
         text-overflow:ellipsis ;
     }
