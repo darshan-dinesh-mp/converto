@@ -2,4 +2,21 @@
     cursor: pointer;
     font-size: x-large;
     font-weight: 800;
+    width: 40%;
+}
+
+@media only screen and (max-width: 540px) {
+    .container{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }    
+
+    .component_div{
+        width: auto;
+    }
+
+    .select{
+        width: auto;
+    }
 }

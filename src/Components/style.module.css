@@ -13,3 +13,10 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
+@media only screen and (max-width: 540px) {
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+}

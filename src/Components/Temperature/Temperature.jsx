@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faRemoveFormat, faRightLong } from '@fortawesome/free-solid-svg-icons'
+import { faRightLong } from '@fortawesome/free-solid-svg-icons'
 import React, { useEffect, useState } from 'react'
 import style from "../style.module.css"
 
