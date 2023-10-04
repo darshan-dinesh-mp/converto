@@ -20,7 +20,7 @@ function Options() {
                     <option value="Speed">Speed</option>
                     <option value="Volume">Volume</option>
                 </select>
-                <div className={`${o.component_div} mt-[3rem] w-[100%]`}>
+                <div className={`${o.component_div} mt-[3rem]`}>
                     {optionValue == "Length" ? <Length /> : ''}
                     {optionValue == "Temperature" ? <Temperature/> : ''}
                     {optionValue == "Speed" ? <Speed/> : ''}

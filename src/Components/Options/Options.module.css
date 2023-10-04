@@ -1,3 +1,7 @@
+.component_div{
+    width: 100%;
+}
+
 .container {
     position: relative;
     top: 30%;
@@ -25,7 +29,7 @@
     }
 
     .component_div {
-        width: auto;
+        width: 100%;
     }
 
     .select {
