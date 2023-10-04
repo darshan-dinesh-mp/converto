@@ -43,6 +43,7 @@
         padding: 1rem;
         text-align: center;
         text-overflow:ellipsis ;
+        border:1px solid red ;
         width: 40%;
     }
 }
