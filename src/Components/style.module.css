@@ -7,6 +7,9 @@
 }
 
 .main input {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
     outline: none;
     padding: 1rem;
     border-top-left-radius: 10px;
@@ -14,6 +17,9 @@
 }
 
 .main select {
+    text-align: center;
+    font-size: large;
+    font-weight: 600;
     cursor: pointer;
     outline: none;
     padding: 1vmax;
