@@ -42,7 +42,8 @@
         font-size: small;
         font-weight: 800;
         padding: 1rem 0 1rem 0;
-        width: 40%;
+        text-align: center;
         text-overflow:ellipsis ;
+        width: 40%;
     }
 }

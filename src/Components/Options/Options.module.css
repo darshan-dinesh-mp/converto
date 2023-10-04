@@ -17,6 +17,9 @@
     font-size: x-large;
     font-weight: 800;
     width: 40%;
+    text-align: center;
+    outline: none;
+    padding: 1rem;
 }
 
 @media only screen and (max-width: 540px) {
@@ -39,7 +42,7 @@
     }
 
     .select {
-        width: auto;
+        width: 100%;
         border-radius: 10px;
         outline: none;
     }

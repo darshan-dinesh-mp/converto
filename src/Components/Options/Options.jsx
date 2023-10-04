@@ -14,7 +14,7 @@ function Options() {
     return (
         <>
             <div className={`${o.container}`}>
-                <select value={optionValue} onChange={setValue} name="metrics" id="metrics" className={`${o.select} text-center outline-none p-4`}>
+                <select value={optionValue} onChange={setValue} name="metrics" id="metrics" className={`${o.select}`}>
                     <option value="Length">Length</option>
                     <option value="Temperature">Temperature</option>
                     <option value="Speed">Speed</option>
