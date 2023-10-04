@@ -17,7 +17,7 @@
     cursor: pointer;
     outline: none;
     padding: 1rem;
-    border: 1px solid black;
+    border-left: 1px solid black;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }

@@ -30,11 +30,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: auto;
+        width: 80%;
     }
 
     .component_div {
-        width: auto;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
