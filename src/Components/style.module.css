@@ -16,9 +16,10 @@
 .main select {
     cursor: pointer;
     outline: none;
-    padding: 1rem;
+    padding: 1vmax;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border:0.5px solid black;
 }
 
 @media only screen and (max-width: 540px) {
