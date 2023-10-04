@@ -288,7 +288,7 @@ function Length() {
     }
 
     return (
-        <div className={`${style.main} flex items-center justify-center w-auto`}>
+        <div className={`${style.main}`}>
             <div className='flex justify-center items-center'>
                 <input value={fromValue} type="number" name='from' id='from' onChange={changeFromValue} placeholder='Enter the length' />
                 <select value={fromUnit} name="fromUnit" id="fromUnit" onChange={changeFromUnit}>
