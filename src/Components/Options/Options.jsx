@@ -3,6 +3,8 @@ import Length from '../Length/Length'
 import o from "./Options.module.css"
 import Temperature from '../Temperature/Temperature'
 import Speed from '../Speed/Speed'
+import Volume from '../Volume/Volume'
+import Mass from '../Mass/Mass'
 
 function Options() {
 
@@ -19,11 +21,14 @@ function Options() {
                     <option value="Temperature">Temperature</option>
                     <option value="Speed">Speed</option>
                     <option value="Volume">Volume</option>
+                    <option value="Mass">Mass</option>
                 </select>
                 <div className={`${o.component_div} mt-[3rem]`}>
                     {optionValue == "Length" ? <Length /> : ''}
-                    {optionValue == "Temperature" ? <Temperature/> : ''}
-                    {optionValue == "Speed" ? <Speed/> : ''}
+                    {optionValue == "Temperature" ? <Temperature /> : ''}
+                    {optionValue == "Speed" ? <Speed /> : ''}
+                    {optionValue == "Volume" ? <Volume /> : ''}
+                    {optionValue == "Mass" ? <Mass /> : ''}
                 </div>
             </div>
         </>
