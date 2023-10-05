@@ -33,4 +33,7 @@
         width: 100%;
         background-size: cover;
     }
+    .appmain::before{
+        background-color: rgba(0, 0, 0, 0.5);
+    }
 }
