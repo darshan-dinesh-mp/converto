@@ -5,6 +5,7 @@ import Temperature from '../Temperature/Temperature'
 import Speed from '../Speed/Speed'
 import Volume from '../Volume/Volume'
 import Mass from '../Mass/Mass'
+import Area from '../Area/Area'
 
 function Options() {
 
@@ -22,6 +23,7 @@ function Options() {
                     <option value="Speed">Speed</option>
                     <option value="Volume">Volume</option>
                     <option value="Mass">Mass</option>
+                    <option value="Area">Area</option>
                 </select>
                 <div className={`${o.component_div} mt-[3rem]`}>
                     {optionValue == "Length" ? <Length /> : ''}
@@ -29,6 +31,7 @@ function Options() {
                     {optionValue == "Speed" ? <Speed /> : ''}
                     {optionValue == "Volume" ? <Volume /> : ''}
                     {optionValue == "Mass" ? <Mass /> : ''}
+                    {optionValue == "Area" ? <Area /> : ''}
                 </div>
             </div>
         </>
