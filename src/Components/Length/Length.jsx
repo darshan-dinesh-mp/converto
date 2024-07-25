@@ -109,7 +109,7 @@ function Length() {
                 setResult(fromValue / 10)
             }
             else if (toUnit == "km") {
-                setResult(fromValue * 1000000)
+                setResult(fromValue / 1000000)
             }
             else if (toUnit == "in") {
                 setResult(fromValue / 25.4)
