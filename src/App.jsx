@@ -10,7 +10,8 @@ function App() {
         <Nav />
         <Options />
         <div className='absolute bottom-0 text-red-400 z-10 bg-black rounded-md py-1 px-2'>
-          <h1>Please bring it to my notice if there is any error or suggestion. <a href="https://github.com/darshan-dinesh-mp" className='underline underline-offset-2'>Connect me</a></h1>
+          <h1>Please bring it to my notice if there is any error or suggestion. <a href="mailto:your.email@example.com" className='underline underline-offset-2'>Connect me</a>
+          </h1>
         </div>
       </div>
     </>
