@@ -1,15 +1,17 @@
 .nav{
     font-size: xx-large ;
     width: 100%;
-    padding: 2rem;
+    padding: 1rem;
+    background-color: black;
 }
 
-@media only screen and (max-width: 540px) { 
+@media only screen and (max-width: 720px) { 
     .nav{
-        font-size: xx-large;
         text-align: center;
-        top: 15%;
+        top: 0%;
         left: 0%;
-
+    }
+    nav h3{
+        font-size: large;
     }
 }
