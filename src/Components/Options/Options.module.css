@@ -1,9 +1,11 @@
 .component_div {
     width: fit-content;
     border-radius: 10px;
+    width: 50%;
 }
 
 .container {
+    width: 100%;
     position: relative;
     top: 30%;
     display: flex;

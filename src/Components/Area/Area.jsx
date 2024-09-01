@@ -234,7 +234,7 @@ function Area() {
 
     return (
         <div className={`${style.main}`}>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center border rounded-[10px]'>
                 <input value={fromValue} type="number" name='from' id='from' onChange={changeFromValue} placeholder='Enter the length' />
                 <select value={fromUnit} name="fromUnit" id="fromUnit" onChange={changeFromUnit}>
                     <option value="Square Millimeters">Square Millimeters</option>
@@ -248,7 +248,7 @@ function Area() {
                 </select>
             </div>
             <FontAwesomeIcon icon={faRightLong} className={`${style.icon} text-2xl text-white`} />
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center border rounded-[10px]'>
                 <input value={result} type="text" name='to' id='to' placeholder='Result is shown here' />
                 <select value={toUnit} name="toUnit" id="toUnit" onChange={changeToUnit}>
                     <option value="Square Millimeters">Square Millimeters</option>
