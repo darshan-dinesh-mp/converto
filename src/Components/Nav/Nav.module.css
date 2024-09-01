@@ -1,17 +1,44 @@
-.nav{
-    font-size: xx-large ;
+.nav {
+    font-size: xx-large;
     width: 100%;
     padding: 1rem;
-    background-color: black;
 }
 
-@media only screen and (max-width: 720px) { 
-    .nav{
+.imageDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.nav img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 720px) {
+    .nav {
         text-align: center;
         top: 0%;
         left: 0%;
     }
-    nav h3{
-        font-size: large;
+
+    .nav h3 {
+        font-size: medium;
+    }
+
+    .nav a {
+        font-size: medium;
+    }
+
+    .nav img {
+        background-color: white;
+        border-radius: 50%;
+        width: 50px;
+    }
+
+    .imageDiv {
+        flex-direction: column;
+        gap: 0.1rem;
     }
 }
