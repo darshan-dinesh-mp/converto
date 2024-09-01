@@ -62,7 +62,7 @@ function Temperature() {
 
     return (
         <div className={`${style.main} flex items-center justify-center w-auto`}>
-            <div className='flex justify-center items-center border rounded-[10px]'>
+            <div className='flex justify-center items-center border border-gray-500 rounded-[10px]'>
                 <input value={fromValue} type="number" name='from' id='from' onChange={changeFromValue} placeholder='Enter the value' />
                 <select value={fromUnit} name="fromUnit" id="fromUnit" onChange={changeFromUnit}>
                     <option value="Degree Celcius">Degree Celcius</option>
@@ -71,7 +71,7 @@ function Temperature() {
                 </select>
             </div>
             <FontAwesomeIcon icon={faRightLong} className='text-2xl text-white' />
-            <div className='flex justify-center items-center border rounded-[10px]'>
+            <div className='flex justify-center items-center border border-gray-500 rounded-[10px]'>
                 <input value={result} type="text" name='to' id='to' placeholder='Result is shown here' />
                 <select value={toUnit} name="toUnit" id="toUnit" onChange={changeToUnit}>
                     <option value="Degree Celcius">Degree Celcius</option>
