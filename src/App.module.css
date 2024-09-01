@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-.appmain{
+.appmain {
     width: 100vw;
     height: 100vh;
     background-image: url("../public/Images/pxfuel.jpg");
@@ -14,26 +14,27 @@
     position: absolute;
 }
 
-.appmain::before{
+.appmain::before {
     content: "";
     position: absolute;
     width: 100vw;
     height: 100vh;
     top: 0%;
     left: 0%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     filter: brightness(0);
 }
 
 @media only screen and (max-width: 540px) {
-    .appmain{
+    .appmain {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100%;
         background-size: cover;
     }
-    .appmain::before{
+
+    .appmain::before {
         background-color: rgba(0, 0, 0, 0.5);
     }
 }
