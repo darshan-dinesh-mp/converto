@@ -67,7 +67,7 @@ function Length() {
             }
             else if (toUnit == "nautical mile") {
                 setResult(fromValue / 185200)
-            }   
+            }
         }
         if (fromUnit == "km") {
             if (toUnit == "km") {
@@ -275,7 +275,7 @@ function Length() {
 
         return () => {
         }
-    },[fromValue,fromUnit,toUnit])
+    }, [fromValue, fromUnit, toUnit])
 
     function changeFromUnit(event) {
         setFromUnit(event.target.value)
@@ -303,7 +303,7 @@ function Length() {
                     <option value="nautical mile">nautical mile</option>
                 </select>
             </div>
-            <FontAwesomeIcon icon={faRightLong} className={`${style.icon} text-2xl text-white`}/>
+            <FontAwesomeIcon icon={faRightLong} className={`${style.icon} text-2xl text-white`} />
             <div className='flex justify-center items-center border border-gray-500 rounded-[10px]'>
                 <input value={result} type="text" name='to' id='to' placeholder='Result is shown here' />
                 <select value={toUnit} name="toUnit" id="toUnit" onChange={changeToUnit}>
