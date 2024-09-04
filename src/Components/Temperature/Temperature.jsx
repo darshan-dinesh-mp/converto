@@ -42,7 +42,7 @@ function Temperature() {
                 setResult(((parseFloat(fromValue) - 273.15) * 9 / 5) + 32)
             }
             else if (toUnit == "Degree Celcius") {
-                setResult(parseFloat(fromValue) - 273.15 )
+                setResult(parseFloat(fromValue) - 273.15)
             }
         }
         return () => {
